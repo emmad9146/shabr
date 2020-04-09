@@ -1,18 +1,18 @@
 .affix {
     top: 0;
     width: 100%;
-   color:grey;
+   color:rgb(119, 221, 119);
 }
 
 .affix + .container {
     padding-top: 125px;
-    color:grey;
+    color:black;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
-   color:grey;
+   color:black;
 }
 
 .navbar .navbar-collapse {
@@ -23,21 +23,21 @@
     border-width: 0;
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
-    color:grey;
+    color:black;
 }
 /*start title*/
 .jumbotron-fluid{
-    background-color:black;
+    background-color:rgb(119, 221, 119);
 }
 
 .display-4{
-    color:white;
+    color:red;
 }
 /*end title*/
 
 /*start home*/
 .dark-brown {
-    background-color: #000000;
+    background-color: rgb(119, 221, 119);
 }
 
 .section h1 {
@@ -47,29 +47,24 @@
 
 .container {
     padding: 50px 20px;
-    color:grey;
+    color:black;
 }
 
 .container h3 {
     padding-bottom: 20px;
-    color:grey;
+    color:black;
 }
 
 .jumbotron p {
     font-size: 24px;
-color:white;
+color:black;
     
 }
 /*end home*/
 /*start info*/
 /*end info*/
 /*start gallery*/
-#gallery {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/balloon-3.jpg') no-repeat center fixed;
-    background-size: cover;
-    color:white;
-    background-color:black;
-}
+
 
 #gallery-photos > div > div {
     padding: 10px;
@@ -137,8 +132,8 @@ color:white;
 
 
 
-.navbar-inverse { background-color: #808080}
-.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FF0000}
+.navbar-inverse { background-color:rgb(0, 128, 128)}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: blue}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #007FDA}
 .dropdown-menu { background-color: #FFFFFF}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FFFFFF}
