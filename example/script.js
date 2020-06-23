@@ -1,9 +1,9 @@
 $(function() {
 
-        $('#nav').affix({
-            offset: {
-                top: $('#splash').outerHeight()
-            }
-        });
-        
+    $('#nav').affix({
+        offset: {
+            top: $('#splash').outerHeight()
+        }
+    });
+
 });
